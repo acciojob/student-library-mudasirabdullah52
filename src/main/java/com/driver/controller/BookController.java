@@ -1,9 +1,7 @@
-package com.example.library.studentlibrary.controller;
+package com.driver.controller;
 
-import com.example.library.studentlibrary.models.Author;
-import com.example.library.studentlibrary.models.Book;
-import com.example.library.studentlibrary.models.Genre;
-import com.example.library.studentlibrary.services.BookService;
+import com.driver.services.BookService;
+import com.driver.models.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

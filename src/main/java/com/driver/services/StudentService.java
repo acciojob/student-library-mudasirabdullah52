@@ -1,10 +1,8 @@
-package com.example.library.studentlibrary.services;
+package com.driver.services;
 
-import com.example.library.studentlibrary.models.Card;
-import com.example.library.studentlibrary.models.Student;
-import com.example.library.studentlibrary.repositories.StudentRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.driver.models.Student;
+import com.driver.models.Card;
+import com.driver.repositories.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,7 @@
-package com.example.library.studentlibrary.services;
+package com.driver.services;
 
-import com.example.library.studentlibrary.models.Book;
-import com.example.library.studentlibrary.models.Genre;
-import com.example.library.studentlibrary.repositories.BookRepository;
+import com.driver.models.Book;
+import com.driver.repositories.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

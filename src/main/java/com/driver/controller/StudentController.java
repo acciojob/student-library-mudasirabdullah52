@@ -1,7 +1,7 @@
-package com.example.library.studentlibrary.controller;
+package com.driver.controller;
 
-import com.example.library.studentlibrary.models.Student;
-import com.example.library.studentlibrary.services.StudentService;
+import com.driver.models.Student;
+import com.driver.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
